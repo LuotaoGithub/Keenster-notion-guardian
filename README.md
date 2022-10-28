@@ -1,6 +1,8 @@
 # 
 
-# Notion Guardian
+# change
+
+
 
 A tool that automatically backups your [Notion](notion.so) workspace and commits changes to another repository.
 
@@ -23,11 +25,4 @@ The tool separates the logic for running the export and the actual workspace dat
 11. Wait until the action runs for the first time or push a commit to the repo to trigger the first backup.
 12. Check your private repo to see that an automatic commit with your Notion workspace data has been made. Done 🙌
 
-## How it works
-
-This repo contains a GitHub workflow that runs every day and for every push to this repo. The workflow will execute the script which makes an export request to Notion, waits for it to finish and downloads the workspace content to a temporary directory. The workflow will then commit this directory to the repository configured in the repo secrets.
-
-# Keenster's small changes
-
-1. Change timezone to Asia/Shanghai for China users. 
-2. Add flattenExportFiletree option to create folders for subpages.
+## 
