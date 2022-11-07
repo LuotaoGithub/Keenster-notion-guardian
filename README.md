@@ -2,15 +2,13 @@
 
 # change
 
-
-
 A tool that automatically backups your [Notion](notion.so) workspace and commits changes to another repository.
 
 Notion Guardian offers a quick way to setup a secure backup of your data in a private repository — allowing you to track how your notes change over time and to know that your data is safe.
 
 The tool separates the logic for running the export and the actual workspace data into two repositories. This way your backups are not cluttered with other scripts. If you prefer to have a one-repo solution or want to backup specific blocks of your workspace, checkout the [notion-backup fork by upleveled](https://github.com/upleveled/notion-backup).
 
-## How to setup
+## How to setup666`
 
 1. Create a separate private repository for your backups to live in (e.g. "my-notion-backup"). Make sure you create a `main` branch — for example by clicking "Add a README file" when creating the repo.
 2. Fork this repository ("notion-guardian").
